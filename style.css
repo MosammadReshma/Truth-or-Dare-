@@ -1,0 +1,26 @@
+
+.welcome {
+    background-color: #080809;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#wlcm-btn {
+    border: solid 1px #332027;
+    border-radius: 10px;
+    background-color: #A3152B;
+}
+
+.name-lst {
+    width: 300px;
+    height: auto;
+    background-color: #111111;
+    border: 1px solid #332027;
+}
+#clear {
+    font-size: 14px;
+    background: transparent;
+    
+}
