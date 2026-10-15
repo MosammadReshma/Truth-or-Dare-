@@ -1,6 +1,11 @@
+:root {
+    --main-bg: #080809;
+    --accent: #A3152B;
+    --text: #E8DFDF;
+}
 
 .welcome {
-    background-color: #080809;
+    background-color: var(--main-bg);
     font-size: 14px;
     text-align: center;
     justify-content: center;
@@ -8,19 +13,23 @@
 }
 
 #wlcm-btn {
-    border: solid 1px #332027;
+    border: solid 1px ;
     border-radius: 10px;
-    background-color: #A3152B;
+    background-color: var(--main-bg);
 }
 
 .name-lst {
-    width: 300px;
+    width: auto;
     height: auto;
     background-color: #111111;
-    border: 1px solid #332027;
+    border: 1px solid;
 }
 #clear {
     font-size: 14px;
     background: transparent;
-    
+}
+
+#wheel {
+    border: solid;
+    border-radius: 100%;
 }
