@@ -23,6 +23,7 @@
     height: auto;
     background-color: #111111;
     border: 1px solid;
+    font: white;
 }
 #clear {
     font-size: 14px;
