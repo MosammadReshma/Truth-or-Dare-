@@ -4,10 +4,21 @@
     --text: #E8DFDF;
 }
 
+html,
+body {
+    min-height: 100%;
+    background-color: var(--main-bg);
+}
+
+body {
+    margin: 0;
+    color: var(--text);
+}
 .welcome {
     background-color: var(--main-bg);
     font-size: 14px;
     text-align: center;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -23,7 +34,7 @@
     height: auto;
     background-color: #111111;
     border: 1px solid;
-    font: white;
+    color: white;
 }
 #clear {
     font-size: 14px;

@@ -1,8 +1,8 @@
 let wlcmPg = document.querySelector(".welcome");
 let start = document.getElementById("wlcm-btn");
 let namePg = document.querySelector(".name-lst");
-let spinPg = document.querySelector("spinner");
-let done = document.getElementByIdById("done");
+let spinPg = document.querySelector(".spinner");
+let done = document.getElementById("done");
 let back = document.getElementById("back");
 
 wlcmPg.style.display="block";
